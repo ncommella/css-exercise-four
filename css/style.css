@@ -2,3 +2,40 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+
+h1 {
+  font-family: sans-serif;
+}
+
+.preview {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 300px;
+  margin: 1em auto;
+  /*height: 25em;
+  width: 100%;*/
+}
+
+.baku{
+  background-image: url(/images/baku.jpg);
+}
+
+.london{
+  background-image: url(/images/london.png);
+}
+
+.madrid{
+  background-image: url(/images/madrid.jpg);
+}
+
+.rome{
+  background-image: url(/images/rome.jpg);
+}
+
+.preview h1 {
+  font-family: serif;
+  font-size: 2.5em;
+  padding-top: 1em;
+  padding-left: 1em;
+}
