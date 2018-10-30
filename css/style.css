@@ -20,7 +20,7 @@ header {
   display: block;
   margin: 1em auto;
   width: 100%;
-  min-height: 350px;
+  min-height: 300px;
 }
 
 /*Background Images*/
@@ -73,4 +73,28 @@ header {
     text-align: left;
   }
 
+}
+
+@media screen and (min-width: 991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .preview {
+    background-size: cover;
+    display: inline-block;
+    margin: 1%;
+    min-height: 250px;
+    width: 20%;
+  }
+
+  .preview h1 {
+    text-align: left;
+  }
 }
