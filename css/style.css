@@ -23,7 +23,7 @@ header {
   min-height: 300px;
 }
 
-/*Background Images*/
+/*** Background Images ***/
 .baku{
   background-image: url(/images/baku.jpg);
 }
@@ -75,6 +75,7 @@ header {
 
 }
 
+/*** Laptop Layout ***/
 @media screen and (min-width: 991px) {
   * {
     padding: 0;
